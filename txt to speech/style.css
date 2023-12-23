@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://t4.ftcdn.net/jpg/04/31/92/87/360_F_431928723_2mcyXV727dZLKJA8P7DePQa2iep8iLAa.jpg");
+    background-size: cover;
+    object-fit: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-div{
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 7px;
+}
+.header h1{
+    text-align: center;
+ font-size: 4vw;
+ color: rgb(221, 17, 85);
+
+
+}
+.header span{
+    color: rgb(235, 233, 233);
+
+}
+/* .header::before{
+    content: "";
+    background-color: blanchedalmond;
+    width: 80px;
+    height: 6px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+} */
+textarea{
+    width: 700px;
+background-color: white;
+padding: 5px 13px;
+margin-left:6px;
+
+}
+footer{
+    width: 700px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:6px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.footer-left{
+    width: 50%;
+    background-color: aliceblue;
+    padding: 5px 12px;
+    height: 30px;
+    border-radius: 7px;
+
+}
+.footer-right{
+    width: 50%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 12px;
+    height: 30px;
+    border-radius: 7px;
+}
+select{
+   
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-left: 30px;
+  
+}
+.footer-right button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+   cursor: pointer;
+}
